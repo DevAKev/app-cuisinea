@@ -12,7 +12,7 @@ require_once('lib/recipe.php');
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Cuisinea - Recettes de cuisines</h1>
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quibusdam ea aperiam dignissimos soluta quae quam possimus saepe voluptates autem ipsum nulla sapiente illum cupiditate earum ullam omnis ipsa. Dignissimos, debitis quibusdam! Est facilis, nisi dolorem mollitia earum odit necessitatibus ea quisquam magni, sapiente, nihil pariatur velit? Porro, repellendus neque.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Voir nos recettes</button>
+            <a href="recettes.php" class="btn btn-primary">Voir nos recettes</a>
         </div>
     </div>
 </div>
