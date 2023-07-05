@@ -17,6 +17,7 @@ $recipe = [
     'ingredients' => '',
     'instructions' => '',
     'category_id' => '',
+    'image' => '',
 ];
 
 $categories = getCategories($pdo);
