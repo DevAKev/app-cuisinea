@@ -58,6 +58,14 @@ if (isset($_POST['saveRecipe'])) {
         'instructions' => $_POST['instructions'],
         'category_id' => $_POST['category'],
     ];
+
+    if ($res === true) {
+        $_SESSION['success_message'] = 'La recette a été sauvegarder';
+        header('Location: gestion_recette.php');
+        exit;
+    } else {
+        $errors[] = 'Un problème est survenu';
+    };
 }
 
 ?>
@@ -102,7 +110,6 @@ if (isset($_POST['saveRecipe'])) {
                                                             echo 'selected="selected"';
                                                         } ?>><?= $category['name']; ?></option>
             <?php } ?>
-
         </select>
     </div>
     <div class="mb-3">

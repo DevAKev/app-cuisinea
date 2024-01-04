@@ -6,5 +6,6 @@ define('_HOME_RECIPES_LIMIT_', 3);
 $mainMenu = [
     'index.php' => 'Accueil',
     'recettes.php' => 'Nos recettes',
-    'ajout_modification_recette.php' => 'Ajouter/modifier une recette',
+    'gestion_recette.php' => 'Gestion des recettes',
+    'admin.php' => 'Administration'
 ];
